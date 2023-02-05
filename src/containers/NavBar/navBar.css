@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+
+}
+.navbar a{
+    margin-right: 1rem;
+    font-size: 1rem;
+
+}
+.navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--color-);
+}
+
+.navbar-logo h1{
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+img { 
+    height: 60px;
+}
+
+.navbar-links_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}

@@ -1,11 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: rgb(191, 202, 212);
+}
+
+body {
+  background: var(--color-bg);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+.section__padding {
+  padding: 4rem 6rem;
+}
+.section__margin {
+  margin: 4rem 6rem;
+}
+
+ @media screen and (min-width: 768px) {
+  .section__padding {
+    padding: 4rem;
+  }
+  .section__margin {
+    margin: 4rem;
+  }
+  
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS PREDETERMINADO
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +83,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
