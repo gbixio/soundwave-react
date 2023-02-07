@@ -1,11 +1,13 @@
 import React from 'react';
 import './formContainer.module.css'
+import FormBox  from '../../components/Form/FormBox';
 
 const FormContainer = () => {
     return (
-        <div>
-            FormContainer
-        </div>
+        <section>
+            <h1>Join the <span>fun.</span></h1>
+            <FormBox/>
+        </section>
     )
     }
 

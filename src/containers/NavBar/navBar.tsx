@@ -1,22 +1,49 @@
-import React from 'react';
-import logo  from '../../assets/logo.png';
-import '../NavBar/navBar.css';
+import styled from 'styled-components'
 
-const NavBar = () => {
-    return (
-        <div className="navbar">
-            <div className="navbar-links">
-                    <div className="navbar-logo">
-                        <img src={logo} alt="logo" />
-                        <h1>Soundwave</h1>
-                    </div>
-            </div>
-        <div className="navbar-links_container">
-            <p><a href="#">Discover</a></p>
-            <p><a href="#">Join</a></p>
-        </div>
-        </div>
-    )
-    }
 
-export default NavBar
+export const NavBar = styled.nav ` 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem ;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+
+img { 
+    height: 60px;
+}
+
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    
+} 
+ 
+ a{
+    margin-right: 1rem;
+    font-size: 1rem;
+
+}
+.navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--color-);
+}
+
+.navbar-logo h1{
+    margin: 1rem;
+    font-size: 1.2rem;
+} 
+
+
+
+.navbar-links_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+} 
+`

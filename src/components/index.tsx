@@ -1,6 +1,3 @@
-export { default as Brand } from './Brand/brand'
 export { default as Content } from './Content/content'
 export { default as Cta } from './Cta/cta'
-export { default as Form } from './Form/form'
-export { default as Links } from './Links/links'
-export { default as SocialMedia } from './SocialMedia/socialMedia'
+export { default as FormBox } from './Form/FormBox'

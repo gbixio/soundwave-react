@@ -1,5 +1,5 @@
-export { default as Footer } from './Footer/footer'
+export { default as FooterContainer } from './Footer/footerContainer'
 export { default as FormContainer } from './FormContainer/formContainer'
 export { default as Header } from './Header/header'
 export { default as MainContent } from './MainContent/mainContent'
-export { default as NavBar } from '../containers/NavBar/navBar'
+export { default as NavBarContainer } from './NavBar/navBarContainer'
