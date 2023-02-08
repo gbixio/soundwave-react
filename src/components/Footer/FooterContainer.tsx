@@ -1,5 +1,5 @@
 import React from 'react';
-import {Footer} from './footer'
+import {Footer} from './Footer'
 import { BsTwitter } from "react-icons/bs";
 import { AiFillFacebook } from "react-icons/ai";
 

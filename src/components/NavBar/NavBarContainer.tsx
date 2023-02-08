@@ -1,18 +1,19 @@
 import React from 'react';
 import logo  from '../../assets/logo.png';
-import { NavBar } from './navBar';
+import { NavBar } from './NavBar';
+import { Link } from 'react-router-dom';
 
 const NavBarContainer = () => {
     return (
         <NavBar>
             <div className="navbar-logo">
                 <img src={logo} alt="logo" />
-                <h1>Soundwave</h1>
+                <Link to="/"><h1> Soundwave </h1> </Link>
             </div>
             
             <div className="navbar-links_container">
-                <p><a href="#">Discover</a></p>
-                <p><a href="#">Join</a></p>
+                <Link to="/discover"> <p>Discover</p>  </Link>
+                <Link to="/join"> <p>Join</p>  </Link>
             </div>
         </NavBar>
     )

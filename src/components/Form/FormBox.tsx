@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyledForm } from './Form'
-import { Button } from '../Button/button';
+import { ButtonLarge } from '../Button/Button';
 
 
 const FormBox = () =>  {
@@ -19,7 +19,7 @@ const FormBox = () =>  {
                 <p>Password:</p>
                 <input type='text' className='password-input' />
             </div>
-            <Button className='join-form' >Join Now</Button>
+            <ButtonLarge className='join-form' >Join Now</ButtonLarge>
         </StyledForm>
     )
     

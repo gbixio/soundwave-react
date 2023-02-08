@@ -1,22 +1,22 @@
 import React from 'react';
-import './header.css'
+import {Hero} from './Hero'
 import banner  from '../../assets/banner.png';
-import { Button } from '../../components/Button/button';
+import { Button } from '../../components/Button/Button';
 
 
-const Header = () => {
+const HeroContainer = () => {
     return (
-        <section id='header__banner'>
-            <div id='header__banner-img'>
+        <Hero className='hero'>
+            <div className='hero__banner-img'>
                 <img  src={banner} alt="banner" />
             </div>
-            <aside> 
+            <aside className='hero__aside'> 
                 <h1>Feel The Music</h1>
                 <p>Stream over 20 thousand songs whith one click</p>
                 <Button>Join Now</Button>
             </aside>
-        </section>
+        </Hero>
     )
     }
 
-export default Header
+export default HeroContainer

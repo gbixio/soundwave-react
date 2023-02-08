@@ -1,29 +1,31 @@
-#mainContent {
-    height: 80vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 6em 0 6em;
-    align-items: center;
-    justify-content: center;
-    column-gap: 2em;
-    row-gap: 2em;
-    margin: 0 auto;
+import styled from 'styled-components'
 
-}
 
-#mainContent__container{
+export const Discover = styled.main `
+height: 100vh;
+display: grid;
+grid-template-columns: 1fr 1fr;
+padding: 0 6em 0 6em;
+align-items: center;
+justify-content: center;
+column-gap: 2em;
+row-gap: 2em;
+margin: 0 auto;
+
+
+.discover__container{
     display: grid;
     grid-column: 1;
     row-gap: 1em;
 }
 
-#mainContent__cards {
+.discover__cards {
     display: flex;
     justify-content: space-between;
     width: 20em;
 }
 
-#mainContent__mini-card {
+.discover__mini-card {
 display: flex;
 justify-content: center;
 align-items: center;
@@ -33,34 +35,34 @@ width: 90px;
 background-color: var(--color-primary);
 }
 
-#mainContent__mini-card img{
+.discover__mini-card img{
     width: 40px;
     margin-bottom: 5px;
 }
 
-#mainContent h1 {
+.discover h1 {
     font-weight: 500;
     font-size: 2.5em;
 }
 
-#mainContent__img{
+.discover__img {
     height: 22em;	
     grid-column: 2;
 }
 
 
  @media screen and (max-width: 768px) {
-    #mainContent {
-        display: grid;
-        grid-template-columns: 1fr;
-        
-     
+ * {
+    display: grid;
+    grid-template-columns: 1fr;   
   }
 
-  #mainContent__img{
+  .discover__img {
     height: 17em;	
     grid-column: 1;
     margin: 0 auto;
 }
 
 }
+
+` 

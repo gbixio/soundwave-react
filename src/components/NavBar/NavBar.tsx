@@ -23,10 +23,10 @@ img {
     
 } 
  
- a{
-    margin-right: 1rem;
-    font-size: 1rem;
-
+.navbar-links_container p {
+    margin-right: 1em;
+    font-size: 1em;
+ 
 }
 .navbar-logo {
     display: flex;
@@ -40,8 +40,6 @@ img {
     font-size: 1.2rem;
     font-weight: 500;
 } 
-
-
 
 .navbar-links_container{
     display: flex;
