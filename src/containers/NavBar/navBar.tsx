@@ -9,6 +9,8 @@ export const NavBar = styled.nav `
     width: 100%;
     box-sizing: border-box;
     position: fixed;
+    top: 0;
+    background-color: var(--color-bg);
 
 img { 
     height: 60px;
@@ -36,6 +38,7 @@ img {
 .navbar-logo h1{
     margin: 1rem;
     font-size: 1.2rem;
+    font-weight: 500;
 } 
 
 

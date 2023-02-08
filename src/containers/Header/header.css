@@ -1,0 +1,28 @@
+#header__banner {
+    height: 100vh;
+    padding: 0 1em 0 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#header__banner-img img{
+    height: 500px;	
+    display: grid;
+
+}
+
+#header__banner h1 {
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+ @media screen and (max-width: 768px) {
+    #header__banner {
+        display: grid;
+        grid-template-columns: 1fr
+         
+  }
+  #header__banner-img {
+    display: none;
+  }
+}

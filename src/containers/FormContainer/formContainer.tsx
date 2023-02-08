@@ -1,5 +1,5 @@
 import React from 'react';
-import './formContainer.module.css'
+import './formContainer.css'
 import FormBox  from '../../components/Form/FormBox';
 
 const FormContainer = () => {

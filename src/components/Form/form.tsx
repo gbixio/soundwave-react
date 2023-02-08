@@ -14,7 +14,7 @@ export const StyledForm = styled.form`
   border-radius: 0.5em;
   height: 2.5em;
   width: 16em;
-  border:  0.2px solid var(--color-buttonfocus);
+  border:  1px solid var(--color-borderinput);
   background-color: var(--color-primary);
   margin-bottom: 1em;
   }

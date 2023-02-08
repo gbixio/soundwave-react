@@ -7,25 +7,24 @@ background: var(--color-primary);
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 1rem ;
 width: 100%;
-height: 60px;
 box-sizing: border-box;
-
+position: baseline;
 
 
 div {
     display: flex;
     flex-direction: row;
-    margin: 1em;
-
-    
 }
+ p {
+    margin: 1em;
+ }
 
 .social-media {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1em;
     justify-content: center;
 }
 

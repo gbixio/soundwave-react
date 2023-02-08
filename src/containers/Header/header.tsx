@@ -1,22 +1,21 @@
 import React from 'react';
-import './header.module.css'
+import './header.css'
 import banner  from '../../assets/banner.png';
 import { Button } from '../../components/Button/button';
 
 
 const Header = () => {
     return (
-        <header>
-            <div>
-                <img src={banner} alt="banner" />
+        <section id='header__banner'>
+            <div id='header__banner-img'>
+                <img  src={banner} alt="banner" />
             </div>
-            <div> 
+            <aside> 
                 <h1>Feel The Music</h1>
                 <p>Stream over 20 thousand songs whith one click</p>
                 <Button>Join Now</Button>
-            </div>
-           
-        </header>
+            </aside>
+        </section>
     )
     }
 
