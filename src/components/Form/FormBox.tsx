@@ -19,7 +19,7 @@ const FormBox = () =>  {
                 <p>Password:</p>
                 <input type='text' className='password-input' />
             </div>
-            <ButtonLarge className='join-form' >Join Now</ButtonLarge>
+            <ButtonLarge >Join Now</ButtonLarge>
         </StyledForm>
     )
     

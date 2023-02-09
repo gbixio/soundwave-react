@@ -9,7 +9,8 @@ justify-content: space-between;
 align-items: center;
 width: 100%;
 box-sizing: border-box;
-position: baseline;
+position: absolute;
+bottom: 0vmax;
 
 
 div {

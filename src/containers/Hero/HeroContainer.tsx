@@ -6,8 +6,8 @@ import { Button } from '../../components/Button/Button';
 
 const HeroContainer = () => {
     return (
-        <Hero className='hero'>
-            <div className='hero__banner-img'>
+        <Hero>
+            <div>
                 <img  src={banner} alt="banner" />
             </div>
             <aside className='hero__aside'> 

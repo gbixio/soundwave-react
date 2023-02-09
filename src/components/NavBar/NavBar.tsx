@@ -10,7 +10,6 @@ export const NavBar = styled.nav `
     box-sizing: border-box;
     position: fixed;
     top: 0;
-    background-color: var(--color-bg);
 
 img { 
     height: 60px;

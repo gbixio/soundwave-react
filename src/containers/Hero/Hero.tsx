@@ -9,13 +9,13 @@ export const Hero = styled.section `
     height: 80vh;
     margin: 6em;
 
-.hero__banner-img {
+img {
     margin: 0 auto;
     display: none;
 }
 
 img {
-  height: 70vh;	
+  height: 80vh;	
 }
 
 .hero__aside{
@@ -28,40 +28,21 @@ img {
 
  h1 {
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 2.7em;
 }
 
 
 @media screen and (min-width: 768px) {
-.hero { background-color: gold;
-    display: grid;
     grid-template-columns: 1fr 1fr;
-  }
- .hero__banner-img {
+  
+ img {
     display: block;
+    position: fixed;
+    bottom: 0%;
+    left: 7%;
   }
   .hero__aside{
     grid-column: 2;
   }
-
-
   }
-
-
-
-
-
-
-
-
- /* @media screen and (max-width: 768px) {
-* {
-    display: grid;
-    grid-template-columns: 1fr;
-         
-  }
-  .hero__banner-img {
-    display: none;
-  }
-} */
 `

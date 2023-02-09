@@ -1,13 +1,19 @@
 import React from 'react';
 import {Join} from './Join'
 import FormBox  from '../../components/Form/FormBox';
+import FooterContainer from '../../components/Footer/FooterContainer';
 
 const JoinContainer = () => {
     return (
+        <>
         <Join>
-            <h1 className='join__title'>Join the <span>fun.</span></h1>
+            <div>
+                <h1>Join the <span>fun.</span></h1>
+            </div>
             <FormBox/>
         </Join>
+        <FooterContainer/>
+        </>
     )
     }
 

@@ -2,27 +2,28 @@ import styled from 'styled-components'
 
 
 export const Discover = styled.main `
-height: 100vh;
-display: grid;
-grid-template-columns: 1fr 1fr;
-padding: 0 6em 0 6em;
+display: flex;
+flex-direction: row;
 align-items: center;
 justify-content: center;
-column-gap: 2em;
 row-gap: 2em;
-margin: 0 auto;
-
+height: 90vh;
+width: 100%;
 
 .discover__container{
-    display: grid;
-    grid-column: 1;
-    row-gap: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    height: 50vh;
+    width: 60%;
+    margin-top: 3em;
 }
 
 .discover__cards {
     display: flex;
     justify-content: space-between;
-    width: 20em;
+    width: 18em;
 }
 
 .discover__mini-card {
@@ -30,37 +31,37 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-height: 90px;
-width: 90px;
+height: 80px;
+width: 80px;
 background-color: var(--color-primary);
 }
 
 .discover__mini-card img{
-    width: 40px;
+    width: 30px;
     margin-bottom: 5px;
 }
 
-.discover h1 {
+h1 {
     font-weight: 500;
     font-size: 2.5em;
 }
 
-.discover__img {
+.img-covers{
+    align-items: center;
+    justify-content: center;
     height: 22em;	
-    grid-column: 2;
+    margin-bottom: 2em;
 }
 
 
  @media screen and (max-width: 768px) {
- * {
-    display: grid;
-    grid-template-columns: 1fr;   
-  }
-
-  .discover__img {
-    height: 17em;	
-    grid-column: 1;
+    flex-direction: column;
     margin: 0 auto;
+
+  .img-covers {
+    height: 14em;
+    align-items: center;
+    justify-content: center;
 }
 
 }

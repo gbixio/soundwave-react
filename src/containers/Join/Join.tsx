@@ -2,29 +2,38 @@ import styled from 'styled-components'
 
 
 export const Join = styled.section `
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 2em;
-    height: 100vh;
+    margin:  0 auto ;
+    height: 90vh;
+    width: 80%;
     
 
 
-.join__title {
+div h1 {
+    margin-left: 3em;
     font-size: 3em;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    width: 100%;
+    margin:  auto ;
+
+
 }
 
 span {
     color: var(--accent-text);
 }
 
-@media screen and (max-width: 768px) {
- * {
-    display: grid;
-    grid-template-columns: 1fr;   
-  }
+@media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
 }
+
+div h1 {
+    margin: auto;
+}
+
 `
