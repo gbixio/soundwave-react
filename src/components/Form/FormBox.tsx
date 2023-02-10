@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledForm } from './Form'
+import { StyledForm } from './FormStyle'
 import { ButtonLarge } from '../Button/ButtonCTA';
 
 
