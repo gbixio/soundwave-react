@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyledForm } from './Form'
-import { ButtonLarge } from '../Button/Button';
+import { ButtonLarge } from '../Button/ButtonCTA';
 
 
 const FormBox = () =>  {

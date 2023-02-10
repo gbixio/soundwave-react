@@ -1,7 +1,7 @@
 import React from 'react';
 import {Hero} from './Hero'
 import banner  from '../../assets/banner.png';
-import { Button } from '../../components/Button/Button';
+import { Button } from '../../components/Button/ButtonCTA';
 
 
 const HeroContainer = () => {
