@@ -32,7 +32,7 @@ export const Circle2 = styled.div`
     @media screen and (min-width: 768px) {
     width: 500px;
     height: 500px;
-    left:30em;
+    left:35em;
     top:-5em;
 }
 
